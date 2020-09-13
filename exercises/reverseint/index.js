@@ -22,17 +22,17 @@ function reverseInt(n) {
 
 
 //PHP implementation
-public function reverseInt($n) : int
-{
-  if ($n == 0) {
-      return 0;
-  }
+// public function reverseInt($n) : int
+// {
+//   if ($n == 0) {
+//       return 0;
+//   }
 
-  $str = strval(abs($n));
+//   $str = strval(abs($n));
 
-  $reverse = strrev($str);
+//   $reverse = strrev($str);
 
-  return $reverse * (($n>0) ? 1 : -1);
-}
+//   return $reverse * (($n>0) ? 1 : -1);
+// }
 
 module.exports = reverseInt;
